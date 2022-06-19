@@ -166,10 +166,10 @@
                       <td  class="px-2 py-2 whitespace-no-wrap border-b text-blue-900  text-sm leading-5"></td>
                       <td  class="px-2 py-2 whitespace-no-wrap border-b text-blue-900  text-sm leading-5"></td>
                       <td  class="px-2 py-2 whitespace-no-wrap border-b text-blue-900  text-sm leading-5"></td>
-                      <td  class="px-2 py-2 whitespace-no-wrap border-b text-blue-900  text-sm leading-5">Total Bales :</td>
+                      <td  class="px-2 py-2 whitespace-no-wrap border-b text-blue-900  text-sm leading-5">Total Bills :</td>
                       <td  class="px-2 py-2 whitespace-no-wrap border-b text-blue-900  text-sm leading-5">
                         <div class="flex flex-row h-10 w-40 rounded-lg relative bg-transparent  px-1 py-1 ">             
-                          <input  class=" focus:outline-none text-center w-full  font-semibold text-md hover:text-black focus:text-black  md:text-basecursor-default flex items-center text-gray-700  outline-none" name="total_bales"  required="" placeholder="Add the Bales" >                       
+                          <input  class=" focus:outline-none text-center w-full  font-semibold text-md hover:text-black focus:text-black  md:text-basecursor-default flex items-center text-gray-700  outline-none" name="total_bales"  required="" placeholder="Add the Bills" >
                         </div>
                         {{-- <input   class="w-full px-2 py-2 text-gray-700  " id=""  name="total_bales" type="text" required="" placeholder="" value="" >  --}}
                       </td>

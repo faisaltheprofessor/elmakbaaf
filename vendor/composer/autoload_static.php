@@ -186,6 +186,7 @@ class ComposerStaticInit1a6483ddfabfa63c10b932aaa913ef0f
         'B' => 
         array (
             'Brick\\Math\\' => 11,
+            'Barryvdh\\DomPDF\\' => 16,
             'Barryvdh\\Debugbar\\' => 18,
         ),
         'A' => 
@@ -564,6 +565,10 @@ class ComposerStaticInit1a6483ddfabfa63c10b932aaa913ef0f
         array (
             0 => __DIR__ . '/..' . '/brick/math/src',
         ),
+        'Barryvdh\\DomPDF\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/barryvdh/laravel-dompdf/src',
+        ),
         'Barryvdh\\Debugbar\\' => 
         array (
             0 => __DIR__ . '/..' . '/barryvdh/laravel-debugbar/src',
@@ -621,10 +626,8 @@ class ComposerStaticInit1a6483ddfabfa63c10b932aaa913ef0f
         'App\\Http\\Controllers\\ExoprtProductController' => __DIR__ . '/../..' . '/app/Http/Controllers/ExoprtProductController.php',
         'App\\Http\\Controllers\\ImportProductController' => __DIR__ . '/../..' . '/app/Http/Controllers/ImportProductController.php',
         'App\\Http\\Controllers\\InvoiceController' => __DIR__ . '/../..' . '/app/Http/Controllers/InvoiceController.php',
-        'App\\Http\\Controllers\\OrderController' => __DIR__ . '/../..' . '/app/Http/Controllers/OrderController.php',
         'App\\Http\\Controllers\\OrderchartController' => __DIR__ . '/../..' . '/app/Http/Controllers/OrderchartController.php',
         'App\\Http\\Controllers\\PhoneController' => __DIR__ . '/../..' . '/app/Http/Controllers/PhoneController.php',
-        'App\\Http\\Controllers\\ProductBookingController' => __DIR__ . '/../..' . '/app/Http/Controllers/ProductBookingController.php',
         'App\\Http\\Controllers\\ProductController' => __DIR__ . '/../..' . '/app/Http/Controllers/ProductController.php',
         'App\\Http\\Controllers\\PurcheseChartController' => __DIR__ . '/../..' . '/app/Http/Controllers/PurcheseChartController.php',
         'App\\Http\\Controllers\\PurcheseManagerController' => __DIR__ . '/../..' . '/app/Http/Controllers/PurcheseManagerController.php',
@@ -635,7 +638,6 @@ class ComposerStaticInit1a6483ddfabfa63c10b932aaa913ef0f
         'App\\Http\\Controllers\\ScountryController' => __DIR__ . '/../..' . '/app/Http/Controllers/ScountryController.php',
         'App\\Http\\Controllers\\ShopController' => __DIR__ . '/../..' . '/app/Http/Controllers/ShopController.php',
         'App\\Http\\Controllers\\SlideshowController' => __DIR__ . '/../..' . '/app/Http/Controllers/SlideshowController.php',
-        'App\\Http\\Controllers\\SphoneController' => __DIR__ . '/../..' . '/app/Http/Controllers/SphoneController.php',
         'App\\Http\\Controllers\\SstreetController' => __DIR__ . '/../..' . '/app/Http/Controllers/SstreetController.php',
         'App\\Http\\Controllers\\StreetController' => __DIR__ . '/../..' . '/app/Http/Controllers/StreetController.php',
         'App\\Http\\Controllers\\SuplierController' => __DIR__ . '/../..' . '/app/Http/Controllers/SuplierController.php',
@@ -750,6 +752,10 @@ class ComposerStaticInit1a6483ddfabfa63c10b932aaa913ef0f
         'Barryvdh\\Debugbar\\Twig\\Extension\\Stopwatch' => __DIR__ . '/..' . '/barryvdh/laravel-debugbar/src/Twig/Extension/Stopwatch.php',
         'Barryvdh\\Debugbar\\Twig\\Node\\StopwatchNode' => __DIR__ . '/..' . '/barryvdh/laravel-debugbar/src/Twig/Node/StopwatchNode.php',
         'Barryvdh\\Debugbar\\Twig\\TokenParser\\StopwatchTokenParser' => __DIR__ . '/..' . '/barryvdh/laravel-debugbar/src/Twig/TokenParser/StopwatchTokenParser.php',
+        'Barryvdh\\DomPDF\\Facade' => __DIR__ . '/..' . '/barryvdh/laravel-dompdf/src/Facade.php',
+        'Barryvdh\\DomPDF\\Facade\\Pdf' => __DIR__ . '/..' . '/barryvdh/laravel-dompdf/src/Facade/Pdf.php',
+        'Barryvdh\\DomPDF\\PDF' => __DIR__ . '/..' . '/barryvdh/laravel-dompdf/src/PDF.php',
+        'Barryvdh\\DomPDF\\ServiceProvider' => __DIR__ . '/..' . '/barryvdh/laravel-dompdf/src/ServiceProvider.php',
         'Brick\\Math\\BigDecimal' => __DIR__ . '/..' . '/brick/math/src/BigDecimal.php',
         'Brick\\Math\\BigInteger' => __DIR__ . '/..' . '/brick/math/src/BigInteger.php',
         'Brick\\Math\\BigNumber' => __DIR__ . '/..' . '/brick/math/src/BigNumber.php',

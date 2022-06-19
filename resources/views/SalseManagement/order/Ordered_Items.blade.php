@@ -27,7 +27,7 @@
 
 
         <div class="inline-block mt-2 w-1/4 pr-1">
-            <label class=" block text-sm text-gray-600" for="">Collication</label>
+            <label class=" block text-sm text-gray-600" for="">Collection</label>
             <input   class="w-full px-2 py-2 text-gray-700 " id="" name="collication" type="text" required="" placeholder="" >
         </div>
         <div class="inline-block mt-2 -mx-1 pl-1 w-1/4">

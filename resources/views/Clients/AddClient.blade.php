@@ -22,7 +22,7 @@
                   <input   class="w-full px-2 py-2 text-gray-700 " id="" name="first_name" type="text" required="" placeholder="First Name" >
               </div>
               <div class="inline-block mt-2 -mx-1 pl-1 w-1/2">
-                  <label class=" block text-sm text-gray-600" for=""></label>
+                  <label class=" block text-sm text-gray-600" for="">Last Name</label>
                   <input   class="w-full px-2 py-2 text-gray-700 " id=""  name="last_name" type="text" required="" placeholder="Last Name" >
               </div>
 
@@ -44,10 +44,10 @@
                   <input   class="w-full px-2 py-2 text-gray-700 " id=""  name="joining_date" type="date" required="" placeholder="" >
               </div>
             
-
                 <div class="inline-block mt-2 w-1/2 pr-1">
-                <label class=" block text-sm text-gray-600" for="">Address</label>
-                <label class="block text-sm text-gray-600" for="">Select The Country:</label>
+                    <p class="text-gray-700 mt-2 text-decoration-underline">Address</p>
+
+                    <label class="block text-sm text-gray-600" for="">Country:</label>
                      <select class="w-full px-5  py-4 rounded"  id="countries" name="country_id">
                         @foreach ($countries as $country)
                           <option class="text-black " value="{{$country->id}}">{{$country->country_name}}</option>
@@ -56,7 +56,7 @@
                 </div>
                 
                 <div class="inline-block mt-2 -mx-1 pl-1 w-1/2">
-                  <label class="block text-sm text-gray-600" for="">Select The City:</label>
+                  <label class="block text-sm text-gray-600" for="">City:</label>
                   <select class="w-full px-5  py-4 rounded"  id="cities" name="city_id">
                     @foreach ($cities as $city)
                         <option class="text-black " value="{{$city->id}}">{{$city->city_name}}</option>
@@ -65,7 +65,7 @@
                 </div>
 
                  <div class="inline-block mt-2 w-1/2 pr-1">
-                  <label class="block text-sm text-gray-600" for="">Select The Street:</label>
+                  <label class="block text-sm text-gray-600" for="">Street:</label>
                   <select class="w-full px-5  py-4 rounded"  id="streets" name="street_id">
                     @foreach ($streets as $street)
                         <option class="text-black " value="{{$street->id}}">{{$street->street_name}}</option>
@@ -74,7 +74,7 @@
                 </div>
 
                 <div class="inline-block mt-2 -mx-1 pl-1 w-1/2">
-                    <label class=" text-sm text-gray-600" for=""></label>
+                    <label class=" text-sm text-gray-600" for="">Zip</label>
                     <input  class="w-full px-2 py-2 text-gray-700 " id=""  name="zip" type="text" required="" placeholder="Zip" >
                 </div>
 
