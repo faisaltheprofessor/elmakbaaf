@@ -69,9 +69,9 @@ use App\Http\Controllers\PurcheseChartController;
 use App\Jobs\SendEmailJob;
 use Carbon\Carbon;
 
-Route::get('/', function () {
-    return view('welcome');
-});
+//Route::get('/', function () {
+//    return view('websitePages/home');
+//});
 
 Route::fallback( function () {
     return view('welcome');
@@ -354,7 +354,9 @@ Route::group(['middleware' => ['can:Purchese_Manager']], function () {
 
 //website Pages everyone can see
 Route::get('/main',[WebsitepageController::class, 'main'])->name('main');
-Route::get('/home',[WebsitepageController::class, 'home'])->name('home');
+Route::get('/home',[WebsitepageController::class, 'home'])->name('home')->middleware('guest');
+Route::get('/',[WebsitepageController::class, 'home'])->name('home');
+
 Route::get('/about',[WebsitepageController::class, 'about'])->name('about');
 Route::get('/carpetvalue',[WebsitepageController::class, 'carpetvalue'])->name('carpetvalue');
 Route::get('/collection',[WebsitepageController::class, 'collection'])->name('collection');
